@@ -21,3 +21,12 @@ Due to time it has issues but proves a point.
 10. End of program.
 
 ## Images and video
+
+PC process
+
+![](https://github.com/webdesignsbytom/Bluetooth_connector/blob/master/assets/examplegif.gif)
+
+Phone Process
+
+<img height='300px' src='https://github.com/webdesignsbytom/Bluetooth_connector/blob/master/assets/unconnected.jpg?raw=true' alt='phone' />
+<img height='300px' src='https://github.com/webdesignsbytom/Bluetooth_connector/blob/master/assets/connected.jpg?raw=true' alt='Card Examples' />
