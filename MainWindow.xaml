@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600"
         ResizeMode="NoResize">
+	
     <Grid Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" MinWidth="600" MinHeight="450">
+		
         <Button Content="Search for available devices" HorizontalAlignment="Left" Margin="57,28,0,0" VerticalAlignment="Top" Width="473" Height="40" Click="Button_Click" Background="#FFE5F14F">
             <Button.Effect>
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
+		
         <Label Content="Available Devices: " HorizontalAlignment="Left" Height="40" Margin="57,123,0,0" VerticalAlignment="Top" Width="245" FontFamily="Arial" FontSize="24" FontWeight="Bold"/>
+		
         <ComboBox x:Name="devicesComboBox" HorizontalAlignment="Left" Margin="57,187,0,0" VerticalAlignment="Top" Width="473" RenderTransformOrigin="-0.505,-0.382" Height="40" SelectionChanged="ComboBox_SelectionChanged">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
@@ -27,6 +31,7 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
+		
         <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="35" Margin="57,259,0,0" VerticalAlignment="Top" Width="473" Visibility="Hidden" SmallChange="0"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="10,412,0,0" VerticalAlignment="Top" Height="4" Width="580"/>
 
