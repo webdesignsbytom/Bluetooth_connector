@@ -28,5 +28,7 @@ PC process
 
 Phone Process
 
+<div class='flex'>
 <img height='300px' src='https://github.com/webdesignsbytom/Bluetooth_connector/blob/master/assets/unconnected.jpg?raw=true' alt='phone' />
 <img height='300px' src='https://github.com/webdesignsbytom/Bluetooth_connector/blob/master/assets/connected.jpg?raw=true' alt='Card Examples' />
+</div>
